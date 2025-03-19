@@ -1,4 +1,4 @@
-# Table Extension in Dynamics 365 Finance & Operations (D365FO)
+# Table Extension and Table Extension method or COC in Dynamics 365 Finance & Operations (D365FO)
 
 ## Overview of Table Extensions
 
