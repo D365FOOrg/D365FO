@@ -31,6 +31,7 @@ This guide provides a comprehensive set of **instructions** to generate **XML-ba
  - **Ensure there’s no a blank line before <?xml version=""1.0"" encoding=""utf-8""?>
  Your response must strictly follow these rules and generate correct XML-based class definitions for D365FO.
  You must provide only the xml without any explanantion in the output also donot include xml``` ```` in the output xml
+
 ### Example:
 <?xml version=""1.0"" encoding=""utf-8""?>
 <AxClass xmlns:i=""http://www.w3.org/2001/XMLSchema-instance"">
