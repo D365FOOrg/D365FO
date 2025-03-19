@@ -1,9 +1,6 @@
-# Creating a Table in D365FO Using XML
+# Creating a Table in D365FO 
 
 When creating a new table in D365FO via XML, you must follow a specific sequence. The XML should include tags for each part of the table—even if only a few properties differ from their default values. If a property isn’t provided by the TDD (Table Definition Document) or user input, or if its value matches the default, it need not be included in the generated XML.
-
----
-
 ## XML Structure Sequence
 
 The XML should follow this order:
@@ -214,9 +211,7 @@ Include the following field groups:
 - **Form Reference:** `CustTable`
 - **Label:** `Test`
 - **Audit Fields:** `CreatedBy`, `CreatedDateTime`, `ModifiedBy`, and `ModifiedDateTime` are enabled.
-
 ---
-
 ## XML Output
 <?xml version="1.0" encoding="utf-8"?>
 <AxTable xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
